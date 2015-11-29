@@ -60,10 +60,8 @@ struct list
 
 //Ricky
 void deletefirst (list &, adrgrup &);
-
 void creategroup(list &);
 adrgrup alokasigrup(grup );
-adrstatus alokasistatus(status );
 adrgrup find_idgrup (list , int );
 void add_grup (list &, adrgrup );
 void insertafter_g(list &, adrgrup ,adrgrup );
@@ -88,6 +86,7 @@ void view_status_grup(adrgrup );
 adrstatus del_status_grup(adrgrup &, string );
 
 //Christ
+adrstatus alokasistatus(status );
 adrstatus find_status (adrgrup , int );
 void sort_tgl_post(adrgrup &);
 void sort_status_id(adrgrup &);
